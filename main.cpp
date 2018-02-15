@@ -24,7 +24,7 @@ int main()
   // letter = firstName[len-1];
   
 
-  cout<<"Welcome, "<<firstName[0]<<"."<<lastName[0]<<", here is your fortune..."<<endl;
+  cout<<"Welcome, "<<firstName[0]<<"."<<lastName[0]<<"., here is your fortune..."<<endl;
   lucky = firstName.length(); 
   //tell fortune
   cout<<"your lucky number is "<<lucky<<endl;
@@ -33,7 +33,7 @@ int main()
 
   if (letter =='a'|| letter =='A' || letter =='e' || letter =='E' || letter =='i' || letter =='I'|| letter =='o' || letter =='O' || letter =='u' || letter =='U')
   {
-    cout<<"you are destined to be famous."<<endl; 
+    cout<<"you are destined to be famous!"<<endl; 
 
   }
   else 
@@ -47,6 +47,6 @@ int main()
  {
     cout<<"you have already met your true love."<<endl; 
  }  
-    cout<<"have a good day"<<endl; 
+    cout<<"have a good day!"<<endl; 
   return 0;
 }
